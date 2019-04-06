@@ -30,7 +30,7 @@ use CancerDB
 ```bash
 -docker cp scopus.json CancerDB:/tmp/tem1.json
 
--docker cp scopus.json CancerDB:/tmp/tem2.json
+-docker cp scopus1.json CancerDB:/tmp/tem2.json
 ```
 
 ## Importar los registros
