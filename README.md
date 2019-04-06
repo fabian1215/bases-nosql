@@ -28,9 +28,9 @@ use CancerDB
 5) en la otra ventana que tenemos con la instancia de mongo corriendo, importanmos temporalmente los archivos en formato
 .json para poder utilizarlos mas adelante al agregarlos a la coleccion.
 ```bash
--docker cp scopus.json CancerBaseDatos:/tmp/tem1.json
+-docker cp scopus.json CancerDB:/tmp/tem1.json
 
--docker cp scopus.json CancerBaseDatos:/tmp/tem2.json
+-docker cp scopus.json CancerDB:/tmp/tem2.json
 ```
 
 ## Importar los registros
