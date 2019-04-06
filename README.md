@@ -1,5 +1,7 @@
 # bases-nosql
-GRUPO: Fabian Stiven Ovalle Muñoz codigo :1529887
+GRUPO: 
+
+      Fabian Stiven Ovalle Muñoz codigo :1529887
 
        Daniel Alejandro Calero    codigo :1529118
        
