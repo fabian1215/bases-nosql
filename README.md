@@ -43,7 +43,7 @@ Nota:el numero "94b5bbaf5f57" es el id del contenedor
 
 -docker exec 94b5bbaf5f57 mongoimport -d CancerBD --collection cancerTotal --file/tmp/tem2.json --jsonarray
 ```
-##Probando las consultas en la base de datos
+## Probando las consultas en la base de datos
 7) hacemos consultas en la base de datos para comprobar que todo funciona bien por ejemplo:
 
 -consulta total de articulos
