@@ -1,5 +1,6 @@
 # bases-nosql
-
+GRUPO: Fabian Stiven Ovalle Muñoz codigo :1529887
+       Daniel Alejandro Calero    codigo :1529118
 1) Convertimos dos archivos de 2000 registros de articulos a .json con nodejs:                                                  
 -csvtojson archivoscsv/scopus1.csv > archivosjson/newscopus1.json
 
