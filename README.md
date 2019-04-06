@@ -17,7 +17,9 @@ GRUPO:
 docker run --name CancerDB -d -p 27017:27017 mongo --noauth --bind_ip=0.0.0.0
 ```
 3) con la instancia corriendo, ingresamos a la base de datos CancerDB con el siguiente comando:    
+```bash
 use CancerDB
+```
 4) creamos una coleccion que solo permita 2500 articulos
 ```bash
 -db.createCollection("cancerTotal", { capped : true, size : 10000000, max : 2500 } )
@@ -41,6 +43,7 @@ Nota:el numero "94b5bbaf5f57" es el id del contenedor
 
 -docker exec 94b5bbaf5f57 mongoimport -d CancerBD --collection cancerTotal --file/tmp/tem2.json --jsonarray
 ```
+##Probando las consultas en la base de datos
 7) hacemos consultas en la base de datos para comprobar que todo funciona bien por ejemplo:
 
 -consulta total de articulos
