@@ -20,7 +20,8 @@ docker run --name CancerDB -d -p 27017:27017 mongo --noauth --bind_ip=0.0.0.0
 ```bash
 use CancerDB
 ```
-4) creamos una coleccion que solo permita 2500 articulos
+## Crear una colección para 2500 archivos
+4) creamos una colección que solo permita 2500 articulos
 ```bash
 -db.createCollection("cancerTotal", { capped : true, size : 10000000, max : 2500 } )
 ```
