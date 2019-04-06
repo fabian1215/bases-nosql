@@ -26,7 +26,7 @@ use CancerDB
 -db.createCollection("cancerTotal", { capped : true, size : 10000000, max : 2500 } )
 ```
 
-5) en la otra ventana que tenemos con la instancia de mongo corriendo, importanmos temporalmente los archivos en formato
+5) en la otra ventana que tenemos con la instancia de mongo corriendo, importamos temporalmente los archivos en formato
 .json para poder utilizarlos mas adelante al agregarlos a la coleccion.
 ```bash
 -docker cp scopus1.json CancerDB:/tmp/tem1.json
