@@ -7,9 +7,9 @@ GRUPO:
 ## Convertir los archivos 
 1) Convertimos dos archivos de 2000 registros de articulos a .json con nodejs:      
 ```bash
--csvtojson archivoscsv/scopus1.csv > archivosjson/newscopus1.json
+-csvtojson archivoscsv/scopus1.csv > archivosjson/scopus1.json
 
--csvtojson archivoscsv/scopus2.csv > archivosjson/newscopus2.json
+-csvtojson archivoscsv/scopus2.csv > archivosjson/scopus2.json
 ```
 
 2) creamos una instancia de mongodb donde vamos a guardar los archivos (nosotros utilizamos docker toolbox)
@@ -28,9 +28,9 @@ use CancerDB
 5) en la otra ventana que tenemos con la instancia de mongo corriendo, importanmos temporalmente los archivos en formato
 .json para poder utilizarlos mas adelante al agregarlos a la coleccion.
 ```bash
--docker cp scopus.json CancerDB:/tmp/tem1.json
+-docker cp scopus1.json CancerDB:/tmp/tem1.json
 
--docker cp scopus1.json CancerDB:/tmp/tem2.json
+-docker cp scopus2.json CancerDB:/tmp/tem2.json
 ```
 
 ## Importar los registros
